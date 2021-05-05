@@ -1,0 +1,67 @@
+
+body {
+    background-color: #f0f0f0; /* 背景色をグレーに */
+    padding: 10px; /* 要素内の余白を 10px に */
+    font-size: 18px; /* 文字の大きさを 14px に */
+    color: #666; /* 文字の色を、濃いめのグレーに */
+}
+
+.container {
+    max-width: 800px;
+    width: auto; /* 幅を 800px に */
+    margin: 0 auto; /* 左右の余白を auto にして、左右中央揃えに */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 影をつける */
+
+}
+
+header {
+    background-color: #6e6464; /* 背景色を茶色に */
+    padding: 10px; /* 要素内余白を 10px に */
+    color: rgb(255, 255, 255); /* 文字色を白に */
+}
+
+h1 {
+    margin: 0; /* 余白をなくす */
+    font-size: 24px; /* 文字の大きさを 24px に */
+    font-weight: normal; /* 文字の太さを太くしない */
+    text-align: center; /* テキストを中央揃えに */
+}
+.list{
+    text-align: center;
+}
+ol{
+    border-top:  1px dashed #666;
+    border-bottom: 1px dashed #666;
+    margin: 10px auto;
+}
+.mirei {
+    float: left;
+    font-size: 20px;
+}
+h2{
+    border-bottom: 1px solid dimgray;
+}
+
+
+.money{
+    font-weight: bold;
+    font-size: 50px;
+}
+.oitati{
+    border-bottom: solid 1px black;
+}
+@media only screen and (max-width:600px){
+    .mirei {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    body{
+        margin: 0 auto;
+    }
+    .mir{
+        text-align: center;
+
+    }
+}
